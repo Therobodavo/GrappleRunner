@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GrappleRunner",
+			"Path": "D:\\RIT\\Prototyping\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunner.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GrappleRunnerEditor",
+			"Path": "D:\\RIT\\Prototyping\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunnerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
