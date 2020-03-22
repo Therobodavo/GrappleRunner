@@ -13,6 +13,7 @@ class AGrappleRunnerGameMode : public AGameModeBase
 
 public:
 	AGrappleRunnerGameMode();
+	void SpawnTile();
 };
 
 
