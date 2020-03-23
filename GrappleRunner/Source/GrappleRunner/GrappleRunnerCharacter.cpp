@@ -63,10 +63,10 @@ void AGrappleRunnerCharacter::SetupPlayerInputComponent(class UInputComponent* P
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &AGrappleRunnerCharacter::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("LookUpRate", this, &AGrappleRunnerCharacter::LookUpAtRate);
+	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("TurnRate", this, &AGrappleRunnerCharacter::TurnAtRate);
+	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("LookUpRate", this, &AGrappleRunnerCharacter::LookUpAtRate);
 
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AGrappleRunnerCharacter::TouchStarted);
@@ -131,4 +131,13 @@ void AGrappleRunnerCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AGrappleRunnerCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	MoveForward(DeltaTime * 50.0f);
+
+	
 }

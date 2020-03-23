@@ -1,2 +1,2 @@
-D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
-D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.h

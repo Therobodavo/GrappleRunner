@@ -1,9 +1,9 @@
-D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Source\GrappleRunner/GrappleRunnerGameMode.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Programs\Epic\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Inc\GrappleRunner\GrappleRunnerGameMode.generated.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Source\GrappleRunner/GrappleRunnerGameMode.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Inc\GrappleRunner\GrappleRunnerGameMode.generated.h

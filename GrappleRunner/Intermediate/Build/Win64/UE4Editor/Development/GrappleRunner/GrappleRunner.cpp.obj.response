@@ -31,8 +31,8 @@
 /wd4838
 /we4668
 /I .
-/I D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Inc\GrappleRunner
-/I D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Source
+/I "D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Inc\GrappleRunner"
+/I "D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -255,18 +255,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.26.28619\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.cpp"
-/FI"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h"
-/Fo"D:\RIT\Prototyping\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\GrappleRunner.cpp.obj"
+/FI"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\GrappleRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.cpp"
+/FI"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h"
+/Fo"D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\GrappleRunner.cpp.obj"
 /TP
 /GR-
 /W4
