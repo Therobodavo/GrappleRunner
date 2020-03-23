@@ -1,2 +1,2 @@
-D:\RIT\GDD\Sem2\603 - Prototyping\Jam7\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
-D:\RIT\GDD\Sem2\603 - Prototyping\Jam7\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Intermediate\Build\Win64\UE4Editor\Development\GrappleRunner\Definitions.GrappleRunner.h
+D:\College Stuff\Unity\GrappleRunner\GrappleRunner\Source\GrappleRunner\GrappleRunner.h
