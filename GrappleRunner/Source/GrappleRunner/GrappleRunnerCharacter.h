@@ -70,5 +70,12 @@ public:
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
 	virtual void Tick(float DeltaTime) override;
+
+public:
+	UPROPERTY(EditAnywhere, Category = Grapple)
+	float momentum;
+
+	UPROPERTY(EditAnywhere, Category = Grapple)
+	float dropOff;
 };
 

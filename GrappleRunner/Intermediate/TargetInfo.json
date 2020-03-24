@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "GrappleRunner",
-			"Path": "D:\\College Stuff\\Unity\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunner.Target.cs",
+			"Path": "F:\\Projects\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunner.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GrappleRunnerEditor",
-			"Path": "D:\\College Stuff\\Unity\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunnerEditor.Target.cs",
+			"Path": "F:\\Projects\\GrappleRunner\\GrappleRunner\\Source\\GrappleRunnerEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

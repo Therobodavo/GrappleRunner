@@ -45,6 +45,9 @@ AGrappleRunnerCharacter::AGrappleRunnerCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	momentum = 0.f;
+	dropOff = 10.0f;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -123,13 +126,15 @@ void AGrappleRunnerCharacter::MoveRight(float Value)
 	if ( (Controller != NULL) && (Value != 0.0f) )
 	{
 		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
+		/*const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 	
 		// get right vector 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
-		AddMovementInput(Direction, Value);
+		AddMovementInput(Direction, Value);*/
+		momentum = Value * 5.0f;
+		
 	}
 }
 
@@ -139,5 +144,20 @@ void AGrappleRunnerCharacter::Tick(float DeltaTime)
 
 	MoveForward(DeltaTime * 50.0f);
 
+	const FRotator Rotation = Controller->GetControlRotation();
+	const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+	// get right vector 
+	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+	// add movement in that direction
+	AddMovementInput(Direction, momentum);
+	if (FGenericPlatformMath::Abs(momentum) > 0.f)
+	{
+		momentum -= momentum / dropOff;
+		if (FGenericPlatformMath::Abs(momentum) <= DBL_EPSILON)
+		{
+			momentum = 0.f;
+		}
+	}
 	
 }
