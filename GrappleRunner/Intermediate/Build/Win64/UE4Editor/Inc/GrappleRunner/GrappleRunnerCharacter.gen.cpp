@@ -34,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeGrappleRunnerCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dropOff_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_dropOff;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_momentum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_momentum;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
@@ -64,6 +72,20 @@ void EmptyLinkFunctionForGeneratedCodeGrappleRunnerCharacter() {}
 		{ "ModuleRelativePath", "GrappleRunnerCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_dropOff_MetaData[] = {
+		{ "Category", "Grapple" },
+		{ "ModuleRelativePath", "GrappleRunnerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_dropOff = { "dropOff", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrappleRunnerCharacter, dropOff), METADATA_PARAMS(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_dropOff_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_dropOff_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_momentum_MetaData[] = {
+		{ "Category", "Grapple" },
+		{ "ModuleRelativePath", "GrappleRunnerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_momentum = { "momentum", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrappleRunnerCharacter, momentum), METADATA_PARAMS(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_momentum_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_momentum_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -105,6 +127,8 @@ void EmptyLinkFunctionForGeneratedCodeGrappleRunnerCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrappleRunnerCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGrappleRunnerCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_dropOff,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_momentum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGrappleRunnerCharacter_Statics::NewProp_FollowCamera,
@@ -137,7 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeGrappleRunnerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGrappleRunnerCharacter, 1760147);
+	IMPLEMENT_CLASS(AGrappleRunnerCharacter, 2975454246);
 	template<> GRAPPLERUNNER_API UClass* StaticClass<AGrappleRunnerCharacter>()
 	{
 		return AGrappleRunnerCharacter::StaticClass();

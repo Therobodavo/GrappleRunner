@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGrappleRunner_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1080E2E1,
+				0x2ADF9821,
 				0x850E1510,
 				METADATA_PARAMS(nullptr, 0)
 			};

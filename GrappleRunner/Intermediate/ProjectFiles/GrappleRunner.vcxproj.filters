@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GrappleRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EC473D28-3F7D-41DB-B5CD-D64B47FC1DF1}</UniqueIdentifier>
+      <UniqueIdentifier>{E5811ABA-905A-4B12-9649-8D97FF56A95E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GrappleRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EC679DEE-CDF9-41BC-BA5C-4F043760D968}</UniqueIdentifier>
+      <UniqueIdentifier>{376B0EF2-975E-49BC-8A53-6EA465C9E32A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GrappleRunner">
-      <UniqueIdentifier>{80A80C66-29F2-4C11-B8FB-E53352998667}</UniqueIdentifier>
+      <UniqueIdentifier>{4009E9E4-4A9E-4967-80E6-C3604CE3164C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GrappleRunner\GrappleRunner.Build.cs">
       <Filter>Source\GrappleRunner</Filter>
